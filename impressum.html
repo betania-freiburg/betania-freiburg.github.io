@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum – Biserica Penticostală Betania</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --accent-color: #3182ce;
+            --bg-color: #f7fafc;
+            --text-color: #2d3748;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            margin-top: 25px;
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            nav ul { flex-direction: column; align-items: center; }
+            nav li { margin: 5px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Impressum</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Acasă</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <section>
+            <h2>Angaben gemäß § 5 TMG / Informații conform legii</h2>
+            <p>
+                Rumänische Pfingstgemeinde Betania (Biserica Romana Penticostala Betania) e.V.<br>
+                Heckerstraße 29<br>
+                79114 Freiburg im Breisgau
+            </p>
+
+            <h2>Vertreten durch / Reprezentat de</h2>
+            <p>
+                Daniel Cartis
+            </p>
+
+            <h2>Kontakt / Contact</h2>
+            <p>
+                E-Mail: betania.freiburg@gmail.com<br>
+                Telefon: +49 [Număr de telefon]
+            </p>
+
+            <h2>Registereintrag / Înregistrare</h2>
+            <p>
+                Eintragung im Vereinsregister.<br>
+                Registergericht: Amtsgericht Freiburg<br>
+                Registernummer: VerR 701393
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Biserica Penticostală Betania. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
